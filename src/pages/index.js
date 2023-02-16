@@ -48,7 +48,7 @@ export default function Home() {
               width={500}
               height={500}
               src="/assets/blessing.jpeg"
-              alt="about illustration"
+              alt="image of Blessing peter"
               priority
             />
           </article>
@@ -157,7 +157,7 @@ export default function Home() {
             <Image
               width={600}
               height={500}
-              alt="altschool project board"
+              alt="image of 247comcare landing page"
               src="/assets/247comcare.png"
               priority
             />
@@ -196,7 +196,7 @@ export default function Home() {
             <Image
               width={600}
               height={500}
-              alt="hero illustration"
+              alt="image of altschool landing page"
               src="/assets/altschool-project-board.png"
               priority
             />

@@ -50,7 +50,7 @@ function Project() {
                   <Image
                     width={500}
                     height={200}
-                    alt="Project"
+                    alt="image of altschool project board landing page"
                     src="/assets/altschool-project-board.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -79,7 +79,7 @@ function Project() {
                   <Image
                     width={500}
                     height={200}
-                    alt="Project"
+                    alt="image of 247comcare landing page"
                     src="/assets/247comcare.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -107,7 +107,7 @@ function Project() {
                   <Image
                     width={500}
                     height={200}
-                    alt="Project"
+                    alt="image of myGithub landing page"
                     src="/assets/mygithub.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -135,7 +135,7 @@ function Project() {
                   <Image
                     width={500}
                     height={200}
-                    alt="Project"
+                    alt="image of random user generator landing page"
                     src="/assets/random-user-generator.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -163,7 +163,7 @@ function Project() {
                   <Image
                     width={500}
                     height={200}
-                    alt="Project"
+                    alt="image of ip address tracker page"
                     src="/assets/ip-address-tracker.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                   />
@@ -190,7 +190,7 @@ function Project() {
                   <Image
                     width={400}
                     height={100}
-                    alt="Project"
+                    alt="image of redactr landing page"
                     src="/assets/redactr.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -218,7 +218,7 @@ function Project() {
                   <Image
                     width={400}
                     height={100}
-                    alt="Project"
+                    alt="image of tipcalculator"
                     src="/assets/tip-calculator.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -246,7 +246,7 @@ function Project() {
                   <Image
                     width={400}
                     height={100}
-                    alt="Project"
+                    alt="image of react calculator"
                     src="/assets/calculator.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
@@ -274,7 +274,7 @@ function Project() {
                   <Image
                     width={400}
                     height={100}
-                    alt="Project"
+                    alt="image of advice generator"
                     src="/assets/advice-generator.png"
                     className="rounded-tl-md object-cover object-top rounded-tr-md"
                     priority
