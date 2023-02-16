@@ -69,7 +69,7 @@ function Project() {
 
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="http://altschool-project-board.vercel.app/"
+              href="http://247comcare.com/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -88,16 +88,16 @@ function Project() {
                 title="247Comcare"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                   it for their future reference."
-                tags="React Js FireBase"
+                tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/ble-syn/247comcare">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="http://altschool-project-board.vercel.app/"
+              href="https://my-github-ble-syn.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -116,16 +116,16 @@ function Project() {
                 title="My GitHub"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                     it for their future reference."
-                tags="React Js FireBase"
+                tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/ble-syn/myGithub">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="http://altschool-project-board.vercel.app/"
+              href="https://random-user-generator-app.blesyn.repl.co/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -144,16 +144,16 @@ function Project() {
                 title="Random User Generator"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                     it for their future reference."
-                tags="React Js FireBase"
+                tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/ble-syn/Random-user-generator-app">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="http://altschool-project-board.vercel.app/"
+              href="https://blesyn-ip-address-tracker.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -171,16 +171,16 @@ function Project() {
                 title="IP Address Tracker"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                     it for their future reference."
-                tags="React Js FireBase"
+                tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/ble-syn/IP-address-tracker">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="http://altschool-project-board.vercel.app/"
+              href="https://redactrapp.netlify.app/index.html"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -199,16 +199,44 @@ function Project() {
                 title="Redactr"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                     it for their future reference."
-                tags="React Js FireBase"
+                tags="Html Css JavaScript"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/ble-syn/Redactr-Hackathon-Circle-70-">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="http://altschool-project-board.vercel.app/"
+              href="https://ble-syn.github.io/tip-calculator-app/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className=""
+            >
+              <ProjectDetails
+                image={
+                  <Image
+                    width={400}
+                    height={100}
+                    alt="Project"
+                    src="/assets/tip-calculator.png"
+                    className="rounded-tl-md object-cover object-top rounded-tr-md"
+                    priority
+                  />
+                }
+                title="Tip Calculator App"
+                desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
+                    it for their future reference."
+                tags="Html Css JavaScript"
+              />
+            </a>
+            <a href="https://github.com/ble-syn/tip-calculator-app">
+              <Button text="View on Github" />
+            </a>
+          </div>
+          <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
+            <a
+              href="https://github.com/ble-syn/reactCalculator"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -227,16 +255,16 @@ function Project() {
                 title="Calculator"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                     it for their future reference."
-                tags="React Js FireBase"
+                tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="http://react-calculator-ble-syn.vercel.app/">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="https://altschool-project-board.vercel.app/"
+              href="https://ble-syn.github.io/Advice-generator-app/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -255,10 +283,10 @@ function Project() {
                 title="Advice Generator"
                 desc=" Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep
                     it for their future reference."
-                tags="React Js FireBase"
+                tags="Html Css JavaScript"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/ble-syn/Advice-generator-app">
               <Button text="View on Github" />
             </a>
           </div>

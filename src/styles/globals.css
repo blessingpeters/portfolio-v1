@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .blob{
-    background-color: red;
-    background-image: url("/public/blob.svg");
+    background-image: url("../blob.svg");
+    background-repeat: no-repeat;
 }

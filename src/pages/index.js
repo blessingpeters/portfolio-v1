@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-      <header className="px-6 sm:px-10 md:px-24 lg:px-28 md:py-24 blob">
+      <header className="px-6 sm:px-10 md:px-24 lg:px-28 md:py-24">
         <article className="md:grid md:gap-8 md:grid-cols-2">
           <article className="self-center text-center md:text-left md:-mt-6 md:col-start-1">
             <h2 className="mb-3.5 text-gray-600 tracking-wide font-semibold text-base">
@@ -26,14 +26,25 @@ export default function Home() {
             <h1 className="my-6 text-4xl md:text-5xl lg:text-6xl md:leading-tight">
               Frontend Developer
             </h1>
-            <p className="font-semibold">
-              A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+            <p className="font-semibold my-6">
+              A Frontend focused Web Developer building the Frontend of Websites
+              and Web Applications that leads to the success of the overall
+              product
             </p>
+            <a href="agro.com" className="text-yellow-600 flex">
+              <Image
+                className="mr-1"
+                width={30}
+                height={30}
+                src="/assets/Download.svg"
+                alt="download icon"
+              />
+              <span className="text-2xl">Resume</span>
+            </a>
           </article>
           <article className="self-center w-3/4 mx-auto md:mb-0 md:mx-0 md:w-full">
-
             <Image
-             className='rounded-full'
+              className="rounded-full"
               width={500}
               height={500}
               src="/assets/blessing.jpeg"
@@ -44,8 +55,11 @@ export default function Home() {
         </article>
       </header>
 
-      <section id="about" className="px-6 sm:px-10 lg:px-28 py-24 text-center md:pt-14">
-      <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
+      <section
+        id="about"
+        className="px-6 sm:px-10 lg:px-28 py-24 text-center md:pt-14"
+      >
+        <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
           About Me
         </h2>
         <h4 className="mb-7 text-gray-800 text-2xl sm:text-3xl md:text-4xl tracking-wide font-semibold">
@@ -64,32 +78,37 @@ export default function Home() {
           </article>
           <article className="self-center text-left md:-mt-6">
             <p className="mb-4">
-            I am a Front-end Developer currently located in Nigeria. 
-            I am fascinated with building user interfaces and creating intuitive, dynamic user experiences. 
-            I am interested in the front-end spectrum and working on projects with like-minded individuals. 
+              I am a Front-end Developer currently located in Nigeria. I am
+              fascinated with building user interfaces and creating intuitive,
+              dynamic user experiences. I am interested in the front-end
+              spectrum and working on projects with like-minded individuals.
             </p>
             <p>
-            I have a keen eye for detail and I am motivated to use technology to produce effective and user-friendly solutions.
-             I am eager to acquire new technologies and programming concepts that will help me sharpen my abilities as a developer, 
-             expand my knowledge and efficiency, and improve the quality of my projects. I also love new experiences and 
-             I am passionate about all that coding and tech in general.
+              I have a keen eye for detail and I am motivated to use technology
+              to produce effective and user-friendly solutions. I am eager to
+              acquire new technologies and programming concepts that will help
+              me sharpen my abilities as a developer, expand my knowledge and
+              efficiency, and improve the quality of my projects. I also love
+              new experiences and I am passionate about all that coding and tech
+              in general.
             </p>
             <Link href="/contact">
-             <Button text="Lets make something special" />
+              <Button text="Lets make something special" />
             </Link>
           </article>
         </article>
       </section>
 
       <section id="stack" className="px-6 sm:px-10 lg:px-0 py-20 text-center">
-        <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">Skills</h2>
+        <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
+          Skills
+        </h2>
         {/* <h4 className="mb-7 text-gray-800 text-2xl sm:text-3xl md:text-4xl tracking-wide font-semibold">
         I have experience working with the following technologies
         </h4> */}
-       
 
         <ul className="flex flex-wrap items-center justify-center">
-          <li className="px-4 py-2 m-3 text-xs font-semibold rounded-md bg-[#FAEBCD] text-yellow-800 md:px-8 md:py-4 md:m-4 md:text-sm">
+          <li className="px-4 py-2 m-3 text-xs font-semibold rounded-md bg-[#FFF4D2] text-yellow-800 md:px-8 md:py-4 md:m-4 md:text-sm">
             HTML
           </li>
 
@@ -116,7 +135,7 @@ export default function Home() {
           <li className="px-4 py-2 m-3 text-xs font-semibold  rounded-md bg-[#FFF4D2] text-yellow-800 md:px-8 md:py-4 md:m-4 md:text-sm">
             Next JS
           </li>
-          <li className="px-4 py-2 m-3 text-xs font-semibold rounded-md bg-[#FFF4D2] text-yellow-600 md:px-8 md:py-4 md:m-4 md:text-sm">
+          <li className="px-4 py-2 m-3 text-xs font-semibold rounded-md bg-[#FFF4D2] text-yellow-800 md:px-8 md:py-4 md:m-4 md:text-sm">
             Git
           </li>
         </ul>
@@ -142,7 +161,6 @@ export default function Home() {
               src="/assets/247comcare.png"
               priority
             />
-          
           </a>
           <div className="md:col-start-4 md:col-end-6">
             <a
@@ -152,18 +170,19 @@ export default function Home() {
               className="text-gray-700 no-underline hover:underline"
             >
               <h4 className="mb-2 text-lg font-semibold text-gray-800 uppercase sm:text-xl md:text-2xl">
-               247COMCARE
+                247COMCARE
               </h4>
             </a>
             <p className="mb-4 text-base leading-6 text-gray-700">
-            247 Comcare provides customized customer service and back office for industry leading startups and modern companies.
+              247 Comcare provides customized customer service and back office
+              for industry leading startups and modern companies.
             </p>
             <div className="flex flex-wrap items-center justify-start mb-4 text-gray-500">
               <span className="mr-4 text-sm">React JS</span>
               <span className="mr-4 text-sm">Tailwind CSS</span>
             </div>
             <a href="https://github.com/ble-syn/247comcare">
-            <Button text="View on Github" />
+              <Button text="View on Github" />
             </a>
           </div>
         </div>
@@ -174,8 +193,6 @@ export default function Home() {
             target="_blank"
             className="hover:-translate-y-1.5 flex rounded-lg md:mb-16 md:col-start-1 md:col-end-4 css-qnqp8n e1uzzknm0"
           >
-            
-              
             <Image
               width={600}
               height={500}
@@ -183,7 +200,6 @@ export default function Home() {
               src="/assets/altschool-project-board.png"
               priority
             />
-           
           </a>
           <div className="md:col-start-4 md:col-end-6">
             <a
@@ -197,17 +213,17 @@ export default function Home() {
               </h4>
             </a>
             <p className="mb-4 text-base leading-6 text-gray-700">
-            Altschool Project Board ia a web application that helps students of Altschool Africa upload and showcase 
-            their various projects and also safekeep it for their future reference.
+              Altschool Project Board ia a web application that helps students
+              of Altschool Africa upload and showcase their various projects and
+              also safekeep it for their future reference.
             </p>
             <div className="flex flex-wrap items-center justify-start mb-4 text-gray-500">
               <span className="mr-4 text-sm">React JS</span>
               <span className="mr-4 text-sm">FireBase</span>
               <span className="mr-4 text-sm">Vercel</span>
-  
             </div>
             <a href="https://github.com/ble-syn/Altschool-Project-Board">
-            <Button text="View on Github" />
+              <Button text="View on Github" />
             </a>
           </div>
         </div>
@@ -221,7 +237,7 @@ export default function Home() {
           </button>
         </Link>
       </section>
-     
+
       {/* <section className="px-6 sm:px-10 md:px-24 lg:px-28 text-center py-28 md:pb-28 md:pt-12 bg-opacity-10 section bg-custom-orange contact-container css-p5e8t e1521u8k0">
         <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
           Contact
@@ -260,11 +276,7 @@ export default function Home() {
           </article>
         </article>
       </section> */}
-
-
-      
-
-    </main>
+      </main>
     </>
   );
 }
