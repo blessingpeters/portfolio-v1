@@ -18,9 +18,9 @@ export default function Home() {
       </Head>
       <main className="">
       <header className="px-6 sm:px-10 md:px-24 lg:px-28 md:py-24">
-        <article className="md:grid md:gap-8 md:grid-cols-2">
-          <article className="self-center text-center md:text-left md:-mt-6 md:col-start-1 md:my-4">
-            <h2 className="mb-3.5 text-gray-600 tracking-wide font-semibold text-base">
+        <article className="md:grid md:gap-8 md:grid-cols-2 grid">
+          <article className="self-center text-center md:text-left md:-mt-6 row-start-2 md:row-start-1 md:col-start-1 md:my-4">
+            <h2 className="my-3.5 text-gray-600 tracking-wide font-semibold text-base">
               Hello, I’m Blessing Peters
             </h2>
             <h1 className="my-6 text-4xl md:text-5xl lg:text-6xl md:leading-tight">
