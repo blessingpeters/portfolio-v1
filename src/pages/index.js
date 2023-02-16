@@ -19,7 +19,7 @@ export default function Home() {
       <main className="">
       <header className="px-6 sm:px-10 md:px-24 lg:px-28 md:py-24">
         <article className="md:grid md:gap-8 md:grid-cols-2">
-          <article className="self-center text-center md:text-left md:-mt-6 md:col-start-1">
+          <article className="self-center text-center md:text-left md:-mt-6 md:col-start-1 md:my-4">
             <h2 className="mb-3.5 text-gray-600 tracking-wide font-semibold text-base">
               Hello, I’m Blessing Peters
             </h2>
@@ -31,7 +31,7 @@ export default function Home() {
               and Web Applications that leads to the success of the overall
               product
             </p>
-            <a href="agro.com" className="text-yellow-600 flex">
+            <a href="agro.com" className="text-yellow-600 flex md:justify-start justify-center mb-6">
               <Image
                 className="mr-1"
                 width={30}
@@ -42,7 +42,8 @@ export default function Home() {
               <span className="text-2xl">Resume</span>
             </a>
           </article>
-          <article className="self-center w-3/4 mx-auto md:mb-0 md:mx-0 md:w-full">
+
+          <article className="self-center w-3/4 mx-auto sm:mt-4 md:mx-0 md:w-full">
             <Image
               className="rounded-full"
               width={500}
@@ -57,7 +58,7 @@ export default function Home() {
 
       <section
         id="about"
-        className="px-6 sm:px-10 lg:px-28 py-24 text-center md:pt-14"
+        className="px-6 sm:px-10 lg:px-28 lg:py-14 pt-24 text-center md:pt-14"
       >
         <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
           About Me
@@ -66,7 +67,7 @@ export default function Home() {
           Me, Myself & I
         </h4>
 
-        <article className="py-6 my-8 md:grid md:grid-cols-2 gap-x-8">
+        <article className="pt-6 my-8 md:grid md:grid-cols-2 gap-x-8">
           <article className="self-center w-3/4 mx-auto mb-5 md:mb-0 md:mx-0 md:w-full">
             <Image
               width={500}
@@ -99,7 +100,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section id="stack" className="px-6 sm:px-10 lg:px-0 py-20 text-center">
+      <section id="stack" className="px-6 sm:px-10 lg:px-0 py-10 text-center">
         <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
           Skills
         </h2>
