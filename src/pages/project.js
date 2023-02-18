@@ -62,7 +62,7 @@ function Project() {
                 tags="React Js FireBase"
               />
             </a>
-            <a href="https://github.com/ble-syn/Altschool-Project-Board">
+            <a href="https://github.com/blessingpeters/Altschool-Project-Board">
               <Button text="View on Github" />
             </a>
           </div>
@@ -91,7 +91,7 @@ function Project() {
                 tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/247comcare">
+            <a href="https://github.com/blessingpeters/247comcare">
               <Button text="View on Github" />
             </a>
           </div>
@@ -119,7 +119,7 @@ function Project() {
                 tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/myGithub">
+            <a href="https://github.com/blessingpeters/myGithub">
               <Button text="View on Github" />
             </a>
           </div>
@@ -147,7 +147,7 @@ function Project() {
                 tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/Random-user-generator-app">
+            <a href="https://github.com/blessingpeters/Random-user-generator-app">
               <Button text="View on Github" />
             </a>
           </div>
@@ -174,7 +174,7 @@ function Project() {
                 tags="React Js"
               />
             </a>
-            <a href="https://github.com/ble-syn/IP-address-tracker">
+            <a href="https://github.com/blessingpeters/IP-address-tracker">
               <Button text="View on Github" />
             </a>
           </div>
@@ -202,13 +202,13 @@ function Project() {
                 tags="Html Css JavaScript"
               />
             </a>
-            <a href="https://github.com/ble-syn/Redactr-Hackathon-Circle-70-">
+            <a href="https://github.com/blessingpeters/Redactr-Hackathon-Circle-70-">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="https://ble-syn.github.io/tip-calculator-app/"
+              href="https://blessingpeters.github.io/tip-calculator-app/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -230,13 +230,13 @@ function Project() {
                 tags="Html Css JavaScript"
               />
             </a>
-            <a href="https://github.com/ble-syn/tip-calculator-app">
+            <a href="https://github.com/blessingpeters/tip-calculator-app">
               <Button text="View on Github" />
             </a>
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="https://github.com/ble-syn/reactCalculator"
+              href="https://github.com/blessingpeters/reactCalculator"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -264,7 +264,7 @@ function Project() {
           </div>
           <div className=" w-full col-span-1 mb-12 rounded-md sm:w-3/4 md:w-full shadow-card hover:-translate-y-0.5">
             <a
-              href="https://ble-syn.github.io/Advice-generator-app/"
+              href="https://blessingpeters.github.io/Advice-generator-app/"
               rel="noopener noreferrer"
               target="_blank"
               className=""
@@ -286,7 +286,7 @@ function Project() {
                 tags="Html Css JavaScript"
               />
             </a>
-            <a href="https://github.com/ble-syn/Advice-generator-app">
+            <a href="https://github.com/blessingpeters/Advice-generator-app">
               <Button text="View on Github" />
             </a>
           </div>
