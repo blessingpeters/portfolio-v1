@@ -3,12 +3,13 @@ import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button";
+// import Animation from "@/components/Animation";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Blessing Peters</title>
+        <title>Blessing Peters | Home</title>
         <meta
           name="description"
           content="Portfolio website for Blessing Peters"
@@ -24,14 +25,14 @@ export default function Home() {
               Hello, I’m Blessing Peters
             </h2>
             <h1 className="my-6 text-4xl md:text-5xl lg:text-6xl md:leading-tight">
-              Frontend Developer
+              A Frontend Developer
             </h1>
+ 
             <p className="font-semibold my-6">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product
+            I love bringing ideas to life through code
             </p>
-            <a href="#" className="text-yellow-600 flex md:justify-start justify-center mb-6">
+
+            <a href="https://drive.google.com/file/d/1pMB27GckaMlQXcRWHedRYlbT0jZksRzW/view?usp=share_link" target="_blank "className="text-yellow-600 flex md:justify-start justify-center mb-6">
               <Image
                 className="mr-1"
                 width={30}
@@ -72,8 +73,8 @@ export default function Home() {
             <Image
               width={500}
               height={500}
-              src="/assets/blessing.jpeg"
-              alt="about illustration"
+              src="/assets/about.png"
+              alt="aboutme illustration"
               priority
             />
           </article>
@@ -144,14 +145,14 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section id="project" className="px-6 sm:px-10 md:px-24 text-center lg:px-28 py-10">
+      <section id="project" className="px-6 sm:px-10 md:px-24 lg:px-28 py-10">
         <h2 className="mb-3.5 text-gray-600 tracking-wide uppercase font-semibold text-base">
           Projects
         </h2>
         <h4 className="mb-10 text-gray-800 text-2xl sm:text-3xl md:text-4xl tracking-wide font-semibold">
           Featured Projects.
         </h4>
-        <div className="grid grid-cols-1 mb-10 md:mb-6 gap-y-4 md:gap-y-16 gap-x-8 md:grid-cols-5">
+        <div className="grid grid-cols-1 mb-10 md:mb-6 gap-y-4 md:gap-y-16 gap-x-8 md:grid-cols-5 ">
           <a
             href="https://247comcare.com/"
             rel="noopener noreferrer"
@@ -178,14 +179,13 @@ export default function Home() {
               </h4>
             </a>
             <p className="mb-4 text-base leading-6 text-gray-700">
-              247 Comcare provides customized customer service and back office
-              for industry leading startups and modern companies.
+            247 Comcare provides customized Customer Service and Back Office for industry leading startups and modern companies.
             </p>
             <div className="flex flex-wrap items-center justify-start mb-4 text-gray-500">
               <span className="mr-4 text-sm">React JS</span>
               <span className="mr-4 text-sm">Tailwind CSS</span>
             </div>
-            <a href="https://github.com/ble-syn/247comcare">
+            <a className="" href="https://github.com/ble-syn/247comcare">
               <Button text="View on Github" />
             </a>
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
             href="https://altschool-project-board.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
-            className="hover:-translate-y-1.5 flex rounded-lg md:mb-16 md:col-start-1 md:col-end-4 css-qnqp8n e1uzzknm0"
+            className="hover:-translate-y-1.5 flex rounded-lg md:mb-16 md:col-start-1 md:col-end-4"
           >
             <Image
               width={600}
@@ -237,7 +237,7 @@ export default function Home() {
             className="border-none bg-[#FFF4D2] text-yellow-800 font-semibold cursor-pointer text-xs sm:text-sm rounded-sm px-3 py-2 sm:px-4 sm:py-3 text-custom-purple hover:bg-[#f4e6bc] flex mt-4 mb-12 ml-auto"
             aria-label="View All Projects"
           >
-            View All Projects
+            View More Projects
           </button>
         </Link>
       </section>

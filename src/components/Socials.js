@@ -4,7 +4,7 @@ function Socials() {
       <ul className="w-full p-0 m-0 mb-8 list-none md:mb-0 ">
         <li className="w-5 sm:w-6 mx-2.5 sm:mx-4 mb-5">
           <a
-            href="https://github.com/ble-syn"
+            href="https://github.com/blessingpeters"
             target="_blank"
             rel="oopener noreferrer"
             aria-label="GitHub"
@@ -22,7 +22,7 @@ function Socials() {
         </li>
         <li className="w-5 sm:w-6 mx-2.5 sm:mx-4 mb-5">
           <a
-            href="https://www.linkedin.com/in/blessing-peters/"
+            href="https://www.linkedin.com/in/blessingpeters/"
             target="_blank"
             rel="nofollow noopener noreferrer"
             aria-label="Linkedin"
@@ -73,7 +73,7 @@ function Socials() {
         </li>
         <li className="w-5 sm:w-6 mx-2.5 sm:mx-4 md:mb-0">
           <a
-            href="https://twitter.com/ble_syn_"
+            href="https://twitter.com/blessingpeters_"
             target="_blank"
             rel="nofollow noopener noreferrer"
             aria-label="Twitter"
