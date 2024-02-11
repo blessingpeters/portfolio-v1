@@ -10,16 +10,27 @@ import image6 from "public/assets/redactr.png";
 import image7 from "public/assets/tip-calculator.png";
 import image8 from "public/assets/calculator.png";
 import image9 from "public/assets/advice-generator.png";
+import image10 from "public/assets/scissors.png"
 
 const details = [
+  {
+    image: image10,
+    title: "Scissors",
+    description:
+      "Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep it for their future reference.",
+    tags: "React Js, FireBase",
+    alt: "image of scissors landing page",
+    link1: "http://altschool-project-board.vercel.app/",
+    link2: "https://github.com/blessingpeters/scissors",
+  },
   {
     image: image1,
     title: "AltSchool Project Board",
     description:
       "Web application that helps students of Altschool Africa upload and showcase their various projects and also safekeep it for their future reference.",
     tags: "React Js, FireBase",
-    alt: "image of 247comcare landing page",
-    link1: "http://altschool-project-board.vercel.app/",
+    alt: "image of AltSchool Project Board landing page",
+    link1: "https://blessingpeters.vercel.app/",
     link2: "https://github.com/blessingpeters/altschool-project-board",
   },
   {
@@ -80,16 +91,16 @@ const details = [
     link1: "https://blessingpeters.github.io/tip-calculator-app/",
     link2: "https://github.com/blessingpeters/tip-calculator-app",
   },
-  {
-    image: image8,
-    alt: "image of react calculator page",
-    title: "Calculator",
-    description:
-      "A React Calculator that performs basic mathematical operations",
-    tags: "React Js",
-    link1: "http://react-calculator-ble-syn.vercel.app/",
-    link2: "https://github.com/blessingpeters/reactCalculator",
-  },
+  // {
+  //   image: image8,
+  //   alt: "image of react calculator page",
+  //   title: "Calculator",
+  //   description:
+  //     "A React Calculator that performs basic mathematical operations",
+  //   tags: "React Js",
+  //   link1: "http://react-calculator-ble-syn.vercel.app/",
+  //   link2: "https://github.com/blessingpeters/reactCalculator",
+  // },
   {
     image: image9,
     alt: "image of Advive generator",
