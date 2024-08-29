@@ -32,7 +32,7 @@ export default function Home() {
             I love bringing ideas to life through code
             </p>
 
-            <a href="https://drive.google.com/file/d/1E0zEMcR7Fz0pdvaxgI5GMZollMO-11a-/view?usp=sharing" target="_blank "className="text-yellow-600 flex md:justify-start justify-center mb-6">
+            <a href="https://drive.google.com/file/d/1Fa-gwKpNHuPnchT3fs0H42CVEpA-GddX/view?usp=sharing" target="_blank "className="text-yellow-600 flex md:justify-start justify-center mb-6">
               <Image
                 className="mr-1"
                 width={30}
